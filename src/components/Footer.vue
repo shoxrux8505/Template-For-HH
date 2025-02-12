@@ -67,8 +67,19 @@
 
         </ul>
     </footer>
+    <div class="footer-bottom">
+        <p>© Copyright WoxWeb 2025. All rights reserved</p>
+    </div>
 </template>
 <style lang="scss" scoped>
+.footer-bottom{
+    padding: 40px 20px;
+    background: #000000;
+    text-align: center;
+    p{
+        color: var(--grey-color);
+    }
+}
 footer {
     width: 100%;
     min-height: 40vh;
@@ -78,6 +89,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     gap: 20px;
+    border-bottom: 1px solid var(--grey-color);
 
     ul {
         list-style: none;
