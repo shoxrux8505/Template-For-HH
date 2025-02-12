@@ -1,0 +1,19 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+:root{
+  --grey-color:#F5F5F5;
+  --red-color:#DB4444;
+  --two-dot:#E07575;
+  --green-color:#00FF66;
+}
+body{
+  font-family: sans-serif;
+}
+/* 
+#app{
+  
+} */
